@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "0db5b205a46fb628",
+    "type": "split",
+    "children": [
+      {
+        "id": "de0d9ade38b89e4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d27bdf25bc5258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "基础/计算机网络/HTTP.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTTP"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d4f7db3147d35af",
+    "type": "split",
+    "children": [
+      {
+        "id": "937ea903cc5af8fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9485ea5439663a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "cff122167940131f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "0cc718ab6d7ff3a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "068a79a6e5272554",
+    "type": "split",
+    "children": [
+      {
+        "id": "e20304e4d2816935",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb1c754c7ac11692",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "基础/计算机网络/HTTP.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "HTTP 的反向链接列表"
+            }
+          },
+          {
+            "id": "f68b3328bc2d8518",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "基础/计算机网络/HTTP.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "HTTP 的出链列表"
+            }
+          },
+          {
+            "id": "7ed8ece4193acb79",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8fc1a5695f695fee",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "aa577ad573b0485e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "基础/计算机网络/HTTP.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "HTTP 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "27d27bdf25bc5258",
+  "lastOpenFiles": [
+    "基础/计算机网络/CORS.md",
+    "基础/操作系统/系统调用.md",
+    "基础/操作系统/进程管理.md",
+    "基础/计算机网络/HTTP.md",
+    "预检请求.md",
+    "基础/操作系统",
+    "欢迎.md",
+    "基础/计算机网络",
+    "基础"
+  ]
+}
