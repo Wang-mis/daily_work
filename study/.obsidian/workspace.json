@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基础/计算机网络/HTTP.md",
+                "file": "编程语言/Go.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Go"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基础/计算机网络/HTTP.md",
+                "file": "编程语言/Go.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTTP"
+              "title": "Outline of Go"
             }
           }
         ],
@@ -185,10 +185,12 @@
   },
   "active": "27d27bdf25bc5258",
   "lastOpenFiles": [
+    "基础/计算机网络/HTTP.md",
+    "编程语言/Go.md",
+    "编程语言",
     "基础/计算机网络/CORS.md",
     "基础/操作系统/系统调用.md",
     "基础/操作系统/进程管理.md",
-    "基础/计算机网络/HTTP.md",
     "预检请求.md",
     "基础/操作系统",
     "欢迎.md",
