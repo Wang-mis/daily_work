@@ -8,6 +8,7 @@ tags:
 ---
 # 状态码
 - 1xx —— 接收的请求正在处理
+	- 101 Switch Protocols 切换协议，如WebSocket协议升级
 - 2xx —— 请求已正常处理完毕
 	- 200 OK
 	- 201 Created 服务器已创建相应资源

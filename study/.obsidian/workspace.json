@@ -183,10 +183,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "27d27bdf25bc5258",
+  "active": "b9485ea5439663a7",
   "lastOpenFiles": [
-    "基础/计算机网络/HTTP.md",
+    "编程语言/Untitled",
+    "基础/linux/命令/grep.md",
+    "基础/计算机网络/IPv4.md",
+    "基础/linux/命令",
+    "基础/linux",
     "编程语言/Go.md",
+    "基础/计算机网络/服务器推送.md",
+    "基础/计算机网络/HTTP.md",
     "编程语言",
     "基础/计算机网络/CORS.md",
     "基础/操作系统/系统调用.md",

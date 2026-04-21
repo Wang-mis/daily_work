@@ -12,5 +12,22 @@
 > - 声明但不赋值
 > - 显式指定类型
 
+# 零值
+当声明一个变量但没有初始化时，该变量的值为该变量对应类型的零值。
+## 各种类型的零值
 
+| 类型     | 具体类型                            | 零值       |
+| ------ | ------------------------------- | -------- |
+| bool   | bool                            | false    |
+| 数值     | int, float64, complex           | 0        |
+| string | string                          | ""       |
+| 引用     | 指针, map, slice, chan, interface | nil      |
+| struct | struct                          | 内部字段都是零值 |
+| 数组     | [N]T                            | 内部元素都是零值 |
+
+## 零值可用
+go的设计哲学——零值可用。
+- slice为nil时，len()和cap()返回0，可以append
+- map为nil时，可以读取，返回零值，不能写入
+- sync.Mutex、bytes.Buffer可直接使用
 
