@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程语言/Go.md",
+                "file": "基础/linux/命令/grep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Go"
+              "title": "grep"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程语言/Go.md",
+                "file": "基础/linux/命令/grep.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Go"
+              "title": "Outline of grep"
             }
           }
         ],
@@ -183,20 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "b9485ea5439663a7",
+  "active": "27d27bdf25bc5258",
   "lastOpenFiles": [
+    "基础/操作系统/系统调用.md",
+    "基础/操作系统/进程管理.md",
+    "基础/计算机网络/IPv6.md",
+    "基础/计算机网络/IPv4.md",
+    "编程语言/Go.md",
     "编程语言/Untitled",
     "基础/linux/命令/grep.md",
-    "基础/计算机网络/IPv4.md",
     "基础/linux/命令",
     "基础/linux",
-    "编程语言/Go.md",
     "基础/计算机网络/服务器推送.md",
     "基础/计算机网络/HTTP.md",
     "编程语言",
     "基础/计算机网络/CORS.md",
-    "基础/操作系统/系统调用.md",
-    "基础/操作系统/进程管理.md",
     "预检请求.md",
     "基础/操作系统",
     "欢迎.md",
