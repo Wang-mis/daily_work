@@ -1,0 +1,230 @@
+题目描述
+
+题目描述
+
+题解
+
+题解
+
+提交记录
+
+提交记录
+
+3
+
+代码
+
+代码
+
+1
+
+测试用例
+
+测试用例
+
+测试结果
+
+测试结果
+
+2
+
+[2515\. 到目标字符串的最短距离](https://leetcode.cn/problems/shortest-distance-to-target-string-in-a-circular-array/)
+
+简单
+
+相关标签
+
+![premium lock icon](https://static.leetcode.cn/cn-frontendx-assets/production/_next/static/images/lock-a6627e2c7fa0ce8bc117c109fb4e567d.svg)相关企业
+
+提示
+
+给你一个下标从 **0** 开始的 **环形** 字符串数组 `words` 和一个字符串 `target` 。 **环形数组** 意味着数组首尾相连。
+
+- 形式上， `words[i]` 的下一个元素是 `words[(i + 1) % n]` ，而 `words[i]` 的前一个元素是 `words[(i - 1 + n) % n]` ，其中 `n` 是 `words` 的长度。
+
+从 `startIndex` 开始，你一次可以用 `1` 步移动到下一个或者前一个单词。
+
+返回到达目标字符串 `target` 所需的最短距离。如果 `words` 中不存在字符串 `target` ，返回 `-1` 。
+
+**示例 1：**
+
+```
+输入：words = ["hello","i","am","leetcode","hello"], target = "hello", startIndex = 1
+输出：1
+解释：从下标 1 开始，可以经由以下步骤到达 "hello" ：
+- 向右移动 3 个单位，到达下标 4 。
+- 向左移动 2 个单位，到达下标 4 。
+- 向右移动 4 个单位，到达下标 0 。
+- 向左移动 1 个单位，到达下标 0 。
+到达 "hello" 的最短距离是 1 。
+```
+
+**示例 2：**
+
+```
+输入：words = ["a","b","leetcode"], target = "leetcode", startIndex = 0
+输出：1
+解释：从下标 0 开始，可以经由以下步骤到达 "leetcode" ：
+- 向右移动 2 个单位，到达下标 2 。
+- 向左移动 1 个单位，到达下标 2 。
+到达 "leetcode" 的最短距离是 1 。
+```
+
+**示例 3：**
+
+```
+输入：words = ["i","eat","leetcode"], target = "ate", startIndex = 0
+输出：-1
+解释：因为 words 中不存在字符串 "ate" ，所以返回 -1 。
+```
+
+**提示：**
+
+- `1 <= words.length <= 100`
+- `1 <= words[i].length <= 100`
+- `words[i]` 和 `target` 仅由小写英文字母组成
+- `0 <= startIndex < words.length`
+
+通过次数
+
+16,045/26.5K
+
+通过率
+
+60.5%
+
+* * *
+
+相关标签
+
+中级工程师
+
+[数组](https://leetcode.cn/tag/array/) [字符串](https://leetcode.cn/tag/string/) [第 325 场周赛](https://leetcode.cn/contest/weekly-contest-325/)
+
+* * *
+
+![icon](https://static.leetcode.cn/cn-frontendx-assets/production/_next/static/images/lock-a6627e2c7fa0ce8bc117c109fb4e567d.svg)
+
+相关企业
+
+* * *
+
+提示 1
+
+You have two options, either move straight to the left or move straight to the right.
+
+* * *
+
+提示 2
+
+Find the first target word and record the distance.
+
+* * *
+
+提示 3
+
+Choose the one with the minimum distance.
+
+* * *
+
+相似题目
+
+[拆炸弹](https://leetcode.cn/problems/defuse-the-bomb/)
+
+简单
+
+* * *
+
+评论 (0)
+
+评论
+
+💡 讨论区规则
+
+1\. 请不要在评论区发表题解！
+
+2\. 评论区可以发表关于对翻译的建议、对题目的疑问及其延伸讨论。
+
+3\. 如果你需要整理题解思路，获得反馈从而进阶提升，可以去题解区进行。
+
+排序:最热
+
+暂无评论
+
+* * *
+
+贡献者![](https://static.leetcode-cn.com/cn-legacy-assets/images/LeetCode_avatar.png)
+
+© 2026 领扣网络（上海）有限公司
+
+28
+
+0
+
+0 人在线
+
+行 1，列 1
+
+运行和提交代码需要 [登录](https://leetcode.cn/accounts/login/?next=%2Fproblems%2Fshortest-distance-to-target-string-in-a-circular-array%2Fdescription%2F%3FenvType%3Ddaily-question%26envId%3D2026-04-15)
+
+Case 1Case 2Case 3
+
+words =
+
+\["hello","i","am","leetcode","hello"\]
+
+target =
+
+"hello"
+
+startIndex =
+
+1
+
+9
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+›
+
+\["hello","i","am","leetcode","hello"\]
+
+"hello"
+
+1
+
+\["a","b","leetcode"\]
+
+"leetcode"
+
+0
+
+\["i","eat","leetcode"\]
+
+"ate"
+
+0
+
+Source
+
+FindHeaderBarSize
+
+FindTabBarSize
+
+FindBorderBarSize

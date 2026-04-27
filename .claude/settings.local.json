@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(firecrawl scrape:*)"
+      "Bash(firecrawl scrape:*)",
+      "Bash(wait)",
+      "Bash(ls \"C:\\\\Users\\\\17531\\\\daily_work\\\\学习记录_\"*.md)",
+      "Bash(dir \"C:\\\\Users\\\\17531\\\\daily_work\" /b)",
+      "Bash(findstr \"学习记录_\")",
+      "Bash(mkdir -p \"/c/Users/Administrator/daily_work/daily\" \"/c/Users/Administrator/daily_work/weekly\")",
+      "Bash(mv /c/Users/Administrator/daily_work/学习记录_*.md /c/Users/Administrator/daily_work/daily/)",
+      "Bash(powershell:*)",
+      "Bash(firecrawl search:*)"
     ]
   }
 }
